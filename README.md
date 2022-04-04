@@ -5,9 +5,9 @@ The current todo application was made in order to meet the requirements of Web T
 ## Usage
 
 Open the links provided below to test the application or to see the source code
-[Source Code]
-[Glitch]
-[GlitchCode]
+[Source Code](https://github.com/00010386/cw2-todo.git)
+[Glitch](https://dirt-tame-gouda.glitch.me)
+[GlitchCode](https://glitch.com/edit/#!/dirt-tame-gouda)
 
 To run the app locally, please follow the steps below:
 
