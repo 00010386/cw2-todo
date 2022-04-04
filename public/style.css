@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.navbar {
+    width: 100%;
+    padding: 2rem 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c0c0c0;
+}
+
+.logo {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.logo_ {
+    color: black;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav ul li {
+    list-style: none;
+    margin-right: 2rem;
+}

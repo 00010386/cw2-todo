@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        title ToDos App
+        link(rel="stylesheet", href="/static/style.css")
+        link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css')
+    body
+        .navbar
+            a.logo(href="/") To
+                span.logo_ Dos
+            nav.nav
+                ul
+                    li 
+                        a(href="add") Create ToDo
+                    li 
+                        a(href="/") See ToDos
+
+        .wrapper
+            block content
+
+        .footer
+            .footer_map
+                    ul.map
+                        li Site map
+                        br
+                        li
+                            a(href="/add")  Add todo
+                        li
+                            a(href="/")  All todos
+            .content
+                p “This web application was created to fulfill Web Technology module’s requirements and does not represent an actual company or service”.
